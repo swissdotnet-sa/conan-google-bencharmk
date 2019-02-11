@@ -2,7 +2,7 @@
 #include <iostream>
 
 void BM_StringCreation(benchmark::State& state) {
-    std::cout << "Test package BM_StringCreation " << std::endl
+    std::cout << "Test package BM_StringCreation " << std::endl;
     while (state.KeepRunning())
         std::string empty_string;
 }
